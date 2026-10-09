@@ -1,0 +1,80 @@
+.badge-ai-role { display: block; max-width: 75px; }
+.about-ai-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin: 26px 0; }
+.about-ai-highlights li { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: #f3f0e917; font-size: 11px; font-weight: 500; }
+.about-ai-highlights img, .about-ai-highlights svg { width: 24px; height: 24px; flex-shrink: 0; object-fit: contain; }
+
+.visual-graph { background: radial-gradient(ellipse at center, #2d392f, #1c231e 75%); color: #a9cdb1; padding: 48px 20px 25px; }
+.knowledge-scene { width: 100%; max-width: 400px; margin-inline: auto; }
+.knowledge-map { position: relative; width: 100%; aspect-ratio: 5 / 3; }
+.knowledge-links { position: absolute; inset: 0; width: 100%; height: 100%; }
+.knowledge-flow { opacity: 0; }
+.knowledge-hub { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 88px; height: 88px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; border-radius: 50%; background: var(--paper); color: var(--ink); box-shadow: 0 0 0 8px #b4d7bb08, 0 0 0 18px #b4d7bb05; }
+.knowledge-hub img { width: 46px; height: 46px; }
+.knowledge-hub > span { font-size: 10px; font-weight: 600; }
+.knowledge-node { position: absolute; transform: translate(-50%, -50%); width: 44px; height: 44px; display: grid; place-items: center; border: 1px solid #a9cdb159; border-radius: 50%; background: #202b22; }
+.knowledge-node svg { width: 20px; height: 20px; }
+.knowledge-node > span { position: absolute; top: calc(100% + 7px); font: 8px var(--mono); letter-spacing: .1em; }
+.knowledge-node.node-0 { left: 17.5%; top: 22.917%; }
+.knowledge-node.node-1 { left: 17.5%; top: 77.083%; }
+.knowledge-node.node-2 { left: 82.5%; top: 22.917%; }
+.knowledge-node.node-3 { left: 82.5%; top: 77.083%; }
+.knowledge-caption { display: block; text-align: center; margin-top: 24px; font: 9px var(--mono); color: #c8d9cb; }
+.has-entered .knowledge-flow { animation: knowledge-signal 2.4s linear 2; }
+.has-entered .knowledge-hub { animation: knowledge-pulse 1.8s ease-in-out 2; }
+@keyframes knowledge-signal { 0% { stroke-dashoffset: 145; opacity: 0; } 15%, 75% { opacity: .85; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+@keyframes knowledge-pulse { 50% { box-shadow: 0 0 0 12px #b4d7bb12, 0 0 0 24px #b4d7bb05; } }
+
+.visual-capture { background: radial-gradient(ellipse at top, #28363c, #1e292f 80%); color: #c1d9e1; padding: 55px 20px 28px; }
+.capture-scene { width: 100%; }
+.capture-frame { width: 78px; height: 94px; border: 1px solid #c1d9e173; border-radius: 14px; margin: 0 auto 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; position: relative; background: #ffffff05; }
+.capture-frame svg { width: 34px; height: 34px; }
+.capture-field { height: 2px; width: 31px; background: currentColor; opacity: .55; }
+.capture-field.short { width: 20px; align-self: flex-start; margin-left: 23px; }
+.capture-scan { position: absolute; left: 7px; right: 7px; height: 1px; top: 22px; background: #6fe1ed; opacity: 0; box-shadow: 0 0 8px #6fe1ed; }
+.has-entered .capture-scan { animation: capture-scan 1.8s ease-in-out 2; }
+.capture-route { display: flex; justify-content: center; align-items: center; gap: clamp(7px, 1vw, 15px); font: 9px var(--mono); }
+.capture-route > svg { width: 16px; height: 16px; flex-shrink: 0; opacity: .65; }
+.capture-route > span { border: 1px solid #c1d9e14d; border-radius: 6px; padding: 8px; }
+.capture-brand { display: flex; flex-direction: column; align-items: center; gap: 7px; }
+.capture-brand img { object-fit: contain; }
+.capture-brand:first-of-type img { background: var(--paper); border-radius: 7px; padding: 6px; width: 54px; height: 40px; }
+.capture-brand > span { font-size: 7px; white-space: nowrap; }
+@keyframes capture-scan { 0%, 100% { opacity: 0; transform: translateY(0); } 20% { opacity: .9; } 80% { opacity: .9; transform: translateY(48px); } }
+
+.contact-banner .conversation-scene { display: grid; grid-template-columns: 108px 1fr auto; gap: 38px; }
+.conversation-mark { width: 108px; height: 108px; overflow: visible; }
+.conversation-reply { transform: rotate(7deg); transform-origin: 77px 45px; }
+.conversation-message { transform: rotate(-7deg); transform-origin: 44px 70px; }
+.has-entered .conversation-reply { animation: conversation-reply 4.2s ease-in-out; }
+.has-entered .conversation-message { animation: conversation-message 4.2s ease-in-out; }
+.has-entered .typing-dot { animation: conversation-typing 1.3s ease-in-out 3; }
+.typing-dot:nth-child(2) { animation-delay: .15s; }
+.typing-dot:nth-child(3) { animation-delay: .3s; }
+.conversation-title { position: relative; white-space: nowrap; }
+.conversation-title > svg { position: absolute; left: 0; bottom: -13px; width: 100%; height: 18px; opacity: .7; }
+.has-entered .conversation-title path { animation: conversation-underline 1.2s ease-out .3s both; }
+.contact-banner .button svg { transition: transform .25s ease; }
+.contact-banner .button:hover svg, .contact-banner .button:focus-visible svg { transform: translateX(4px); }
+@keyframes conversation-reply { 50% { transform: translateY(-5px) rotate(3deg); } }
+@keyframes conversation-message { 50% { transform: translateY(3px) rotate(-3deg); } }
+@keyframes conversation-typing { 0%, 70%, 100% { opacity: .5; transform: translateY(0); } 35% { opacity: 1; transform: translateY(-3px); } }
+@keyframes conversation-underline { from { stroke-dasharray: 1; stroke-dashoffset: 1; } to { stroke-dasharray: 1; stroke-dashoffset: 0; } }
+
+@media (max-width: 849px) {
+  .contact-banner .conversation-scene { grid-template-columns: 70px 1fr auto; gap: 22px; }
+  .conversation-mark { width: 70px; height: 70px; }
+  .knowledge-hub { width: 76px; height: 76px; }
+  .knowledge-hub img { width: 40px; height: 40px; }
+}
+@media (max-width: 599px) {
+  .badge-ai-role { max-width: 54px; }
+  .visual-graph, .visual-capture { padding: 45px 18px 28px; min-height: 260px; }
+  .knowledge-caption { margin-top: 26px; font-size: 8px; }
+  .knowledge-node { width: 38px; height: 38px; }
+  .contact-banner .conversation-scene { grid-template-columns: 1fr; gap: 26px; justify-items: start; }
+  .conversation-mark { width: 72px; height: 72px; }
+  .conversation-title > svg { bottom: -10px; height: 14px; }
+  .contact-banner .button { margin-top: 5px; }
+  .about-ai-highlights { gap: 8px; }
+  .about-ai-highlights li { font-size: 10px; padding: 10px 12px; }
+}

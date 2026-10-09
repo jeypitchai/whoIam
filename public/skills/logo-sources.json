@@ -1,0 +1,638 @@
+[
+  {
+    "asset": "skills/logos/logos-cursor-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-claude-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-github-copilot.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-kiro.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-windsurf.svg",
+    "collection": "Simple Icons",
+    "source": "https://windsurf.com/brand",
+    "license": "CC0 collection; brand rights remain with their owners"
+  },
+  {
+    "asset": "skills/logos/logos-openai-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-ollama.svg",
+    "collection": "Simple Icons",
+    "source": "https://github.com/ollama/ollama/issues/2152#issuecomment-1905286922",
+    "license": "CC0 collection; brand rights remain with their owners"
+  },
+  {
+    "asset": "skills/logos/lobe-copilot-color.svg",
+    "collection": "Lobe Icons",
+    "source": "https://github.com/lobehub/lobe-icons",
+    "license": "MIT"
+  },
+  {
+    "asset": "skills/logos/lobe-nova-color.svg",
+    "collection": "Lobe Icons",
+    "source": "https://github.com/lobehub/lobe-icons",
+    "license": "MIT"
+  },
+  {
+    "asset": "skills/logos/lobe-bedrock-color.svg",
+    "collection": "Lobe Icons",
+    "source": "https://github.com/lobehub/lobe-icons",
+    "license": "MIT"
+  },
+  {
+    "asset": "skills/logos/lobe-mcp.svg",
+    "collection": "Lobe Icons",
+    "source": "https://github.com/lobehub/lobe-icons",
+    "license": "MIT"
+  },
+  {
+    "asset": "skills/logos/logos-java.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-python.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-typescript-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-javascript.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-nodejs-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-ruby.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-apachegroovy.svg",
+    "collection": "Simple Icons",
+    "source": "https://apache.org/logos",
+    "license": {
+      "type": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-spring-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-springboot.svg",
+    "collection": "Simple Icons",
+    "source": "https://spring.io/projects",
+    "license": "CC0 collection; brand rights remain with their owners"
+  },
+  {
+    "asset": "skills/logos/logos-hibernate.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-struts.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-react.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-angular-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-html-5.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-css-3.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-sass.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-bootstrap.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-jquery.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-sencha.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-android-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-ios.svg",
+    "collection": "Simple Icons",
+    "source": "https://en.wikipedia.org/wiki/IOS",
+    "license": "CC0 collection; brand rights remain with their owners"
+  },
+  {
+    "asset": "skills/logos/logos-openapi-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-raml.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-apachekafka.svg",
+    "collection": "Simple Icons",
+    "source": "https://apache.org/logos",
+    "license": {
+      "type": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-salesforce.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/devicon-neo4j.svg",
+    "collection": "Devicon",
+    "source": "https://github.com/devicons/devicon/tree/master",
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/devicons/devicon/blob/master/LICENSE"
+    }
+  },
+  {
+    "asset": "skills/logos/devicon-oracle.svg",
+    "collection": "Devicon",
+    "source": "https://github.com/devicons/devicon/tree/master",
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/devicons/devicon/blob/master/LICENSE"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-mysql-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-ibm.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/devicon-microsoftsqlserver.svg",
+    "collection": "Devicon",
+    "source": "https://github.com/devicons/devicon/tree/master",
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/devicons/devicon/blob/master/LICENSE"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-mongodb-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-redis.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-couchdb-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-sqlite.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-aws.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-docker-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-ansible.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-tomcat.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-nginx.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-linux-tux.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/devicon-unix.svg",
+    "collection": "Devicon",
+    "source": "https://github.com/devicons/devicon/tree/master",
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/devicons/devicon/blob/master/LICENSE"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-microsoft-windows-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-macos.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-aix.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-jenkins.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-git-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-github-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-apachemaven.svg",
+    "collection": "Simple Icons",
+    "source": "https://apache.org/logos",
+    "license": {
+      "type": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-apacheant.svg",
+    "collection": "Simple Icons",
+    "source": "https://apache.org/logos",
+    "license": {
+      "type": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-gulp.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-webpack.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-playwright.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/devicon-junit.svg",
+    "collection": "Devicon",
+    "source": "https://github.com/devicons/devicon/tree/master",
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/devicons/devicon/blob/master/LICENSE"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-cucumber.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/logos-linkedin-icon.svg",
+    "collection": "SVG Logos",
+    "source": "https://github.com/gilbarbara/logos",
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    }
+  },
+  {
+    "asset": "skills/logos/simple-edx.svg",
+    "collection": "Simple Icons",
+    "source": "https://www.edx.org",
+    "license": "CC0 collection; brand rights remain with their owners"
+  },
+  {
+    "asset": "skills/logos/simple-cisco.svg",
+    "collection": "Simple Icons",
+    "source": "https://www.cisco.com",
+    "license": "CC0 collection; brand rights remain with their owners"
+  }
+]

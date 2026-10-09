@@ -1,0 +1,49 @@
+.customer-experience { background: var(--paper); color: var(--ink); position: relative; }
+.customer-heading { display: grid; grid-template-columns: 1.4fr 1fr; align-items: end; gap: 64px; margin-bottom: 44px; }
+.customer-heading h2 { font-size: clamp(38px, 4.2vw, 60px); margin-top: 20px; }
+.customer-introduction { display: flex; gap: 25px; align-items: center; padding-bottom: 4px; }
+.customer-introduction p { font-size: 13px; line-height: 1.8; color: var(--muted); max-width: 300px; }
+.customer-count { font-size: 54px; line-height: 1; letter-spacing: -.07em; flex-shrink: 0; }
+.customer-count span { display: block; font: 8px var(--mono); letter-spacing: .04em; text-transform: uppercase; margin-top: 12px; }
+.customer-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+.customer-card { position: relative; height: 180px; border: 1px solid #1919160e; border-radius: 18px; background: #fff; display: flex; flex-direction: column; align-items: center; padding: 30px 24px 20px; box-shadow: 0 3px 0 #19191603; transition: transform .4s cubic-bezier(.22, 1, .36, 1), box-shadow .4s, border-color .4s; }
+.customer-number { position: absolute; left: 15px; top: 13px; font: 8px var(--mono); color: #999b93; }
+.customer-mark { display: flex; align-items: center; justify-content: center; flex: 1; width: 100%; min-height: 0; }
+.customer-logo { display: block; position: relative; overflow: hidden; max-width: 100%; flex-shrink: 1; transition: transform .5s cubic-bezier(.22, 1, .36, 1); }
+.customer-logo img { position: absolute; max-width: none; object-fit: fill; }
+.customer-logo-inverted { filter: invert(1); }
+.customer-name { font-size: 10px; color: #696b65; text-align: center; line-height: 1.4; margin-top: 12px; }
+.customer-reveal.has-entered { animation: customer-arrive .8s cubic-bezier(.22, 1, .36, 1) var(--customer-delay) backwards; }
+.customer-footnote { display: flex; gap: 18px; align-items: center; justify-content: center; margin-top: 32px; font: 9px var(--mono); text-transform: uppercase; letter-spacing: .07em; color: #696b65; }
+.customer-line { height: 1px; width: 50px; background: #19191622; }
+@keyframes customer-arrive { from { opacity: 0; transform: translateY(24px) scale(.97); } to { opacity: 1; transform: none; } }
+@media (hover: hover) {
+  .customer-card:hover { transform: translateY(-5px); border-color: #e9553550; box-shadow: 0 12px 30px #1919160b; }
+  .customer-card:hover .customer-logo { transform: scale(1.035); }
+}
+@media (max-width: 1100px) {
+  .customer-heading { gap: 32px; }
+  .customer-introduction { gap: 18px; }
+  .customer-count { font-size: 44px; }
+  .customer-card { padding-left: 18px; padding-right: 18px; }
+}
+@media (max-width: 849px) {
+  .customer-heading { grid-template-columns: 1fr; gap: 28px; }
+  .customer-introduction p { max-width: 440px; }
+  .customer-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 599px) {
+  .customer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .customer-heading { margin-bottom: 30px; }
+  .customer-heading h2 { font-size: clamp(32px, 7.5vw, 44px); }
+  .customer-introduction { gap: 22px; }
+  .customer-introduction p { font-size: 12px; line-height: 1.7; }
+  .customer-card { height: 155px; padding: 28px 14px 16px; border-radius: 14px; }
+  .customer-name { font-size: 9px; }
+  .customer-footnote { font-size: 8px; gap: 12px; }
+  .customer-line { width: 30px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .customer-reveal.has-entered { animation: none; }
+  .customer-card, .customer-logo { transition: none; }
+}

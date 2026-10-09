@@ -1,0 +1,22 @@
+:root {
+  --background: #111111;
+  --surface: #1a1a19;
+  --surface-raised: #22221f;
+  --paper: #f3f0e9;
+  --accent: #e95535;
+  --accent-dark: #a53523;
+  --text: #f3f0e9;
+  --muted: #b5b5ad;
+  --ink: #191916;
+  --line: #ffffff26;
+  --font: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --radius: 20px;
+  --content: 1240px;
+  --header-height: 90px;
+}
+@theme {
+  --color-accent: #e95535;
+  --color-paper: #f3f0e9;
+  --color-ink: #191916;
+}
