@@ -78,7 +78,9 @@ Local logo assets are committed with source/license information in `public/skill
 
 The production default is `https://jeypitchai.github.io/whoIam/`, with Vite base `/whoIam/`. All internal page links and assets include that subpath.
 
-In repository Settings → Pages, select **GitHub Actions** as the deployment source. The workflow builds and validates pull requests, and deploys `dist/` on pushes to `main` or a manual run. Building locally does not publish the site.
+In repository Settings → Pages, select **GitHub Actions** as the deployment source. The workflow reads the configured Pages URL, builds and validates pull requests, and deploys `dist/` on pushes to `main` or a manual run. GitHub's default domain uses `/whoIam/`; a custom domain uses `/`. Asset paths, internal links, canonical metadata, and the sitemap follow that configuration. Building locally does not publish the site.
+
+For a custom domain, register it with a domain provider and configure its public DNS before expecting it to load. Saving a name in GitHub Pages does not register it. After changing the Pages domain setting, rerun the deployment workflow so the build uses the new URL. See [GitHub's custom-domain DNS instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 For another hosting path or domain:
 

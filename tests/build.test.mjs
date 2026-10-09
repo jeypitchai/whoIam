@@ -31,7 +31,7 @@ test('six pages contain distinct pre-rendered content and metadata', () => {
   assert.equal(titles.size, 6);
 });
 
-test('links, fragments and assets resolve under the GitHub Pages subpath', async () => {
+test('links, fragments and assets resolve under the configured hosting path', async () => {
   for (const [page, doc] of documents) {
     for (const el of doc.querySelectorAll('a[href],script[src],link[href],img[src],video[src]')) {
       const value = el.getAttribute('href') || el.getAttribute('src');
