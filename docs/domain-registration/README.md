@@ -4,9 +4,15 @@ The requested name is not registered by this project yet. On October 9, 2026, th
 
 The proposed DNS configuration is in `jeypitch.json`. The CNAME points to `jeypitchai.github.io`, with no scheme, repository path, or trailing slash. The owner email is the portfolio's existing public contact address.
 
+## Current registration blocker
+
+On October 9, 2026, the [upstream registry](https://github.com/is-a-dev/register) displayed **PULL REQUESTS ARE DISABLED UNTIL FURTHER NOTICE** and allowed only collaborators to create pull requests. The requested subdomain cannot be registered while this restriction is in place. No DNS mapping is active for this request.
+
+The owner's fork is [jeypitchai/register](https://github.com/jeypitchai/register). Prepared ownership and DNS details are saved in [domains/jeypitch.json on codex/jeypitch-domain](https://github.com/jeypitchai/register/blob/codex/jeypitch-domain/domains/jeypitch.json), commit `1e8403387d1b14e6dc23511a0c36cefc1ffd4730`. Recheck availability and the provider's registration status before submitting a request when registrations reopen.
+
 ## Registration preview configuration
 
-On October 9, 2026, Pages settings were changed to GitHub Actions and the unapproved custom domain was cleared. The obsolete root `CNAME` file was also removed. The deployment now reads the default Pages URL and uses `/whoIam/`. Verify `https://jeypitchai.github.io/whoIam/` loads before submitting the registration request.
+On October 9, 2026, Pages settings were changed to GitHub Actions and the unapproved custom domain was cleared. The obsolete root `CNAME` file was also removed. The deployment now reads the default Pages URL and uses `/whoIam/`. [Deployment 37883862202](https://github.com/jeypitchai/whoIam/actions/runs/37883862202) passed build checks and deployment, and `https://jeypitchai.github.io/whoIam/` returned HTTP 200. Verify it still loads before submitting the registration request.
 
 ## Registration requires the owner's submission
 
