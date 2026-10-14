@@ -20,8 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Read GitHub Pages URL
-        id: pages
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - uses: actions/setup-node@v4
         with:
@@ -30,8 +29,8 @@ jobs:
       - run: npm ci
       - run: npm run check
         env:
-          SITE_BASE: ${{ steps.pages.outputs.base_path || '/' }}
-          SITE_ORIGIN: ${{ steps.pages.outputs.origin }}
+          SITE_BASE: /whoIam/
+          SITE_ORIGIN: https://jeypitchai.github.io
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

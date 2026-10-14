@@ -1,5 +1,7 @@
 # Pending free subdomain: jeypitch.is-a.dev
 
+As of October 14, 2026, the owner chose to keep `https://jeypitchai.github.io/whoIam/` instead of a custom domain. The registration preparation below is retained for reference; the deployment workflow is pinned to the GitHub Pages address.
+
 The requested name is not registered by this project yet. On October 9, 2026, the registry had no `domains/jeypitch.json`, and `jeypitch` did not match its reserved or internal name lists. Availability remains subject to the registry's review.
 
 The proposed DNS configuration is in `jeypitch.json`. The CNAME points to `jeypitchai.github.io`, with no scheme, repository path, or trailing slash. The owner email is the portfolio's existing public contact address.
@@ -26,7 +28,7 @@ After the maintainers merge the registration request:
 
 1. In `jeypitchai/whoIam` Settings → Pages, set the custom domain to `jeypitch.is-a.dev`.
 2. Wait for GitHub's DNS check to succeed.
-3. Rerun **Build and deploy portfolio**. The existing workflow reads the configured Pages URL automatically; it will build with `/` and `https://jeypitch.is-a.dev`.
+3. Change the workflow to `SITE_BASE=/` and `SITE_ORIGIN=https://jeypitch.is-a.dev`, then rerun **Build and deploy portfolio**.
 4. Enable Enforce HTTPS once GitHub provisions the certificate.
 5. Verify Home and each page, logo and portrait loading, video playback, and the resume download at the new domain.
 

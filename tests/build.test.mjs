@@ -59,7 +59,7 @@ test('resume, portrait cards, project anchors and career facts are included', as
   const home = documents.get('home');
   const featured = [...home.querySelectorAll('#selected-work .project-card')];
   assert.deepEqual(featured.map(card => card.querySelector('a').getAttribute('href')), [
-    `${base}work/#digital-brain`, `${base}work/#voice-ai`, `${base}work/#image-to-record`,
+    `${base}work/?site=github-pages#digital-brain`, `${base}work/?site=github-pages#voice-ai`, `${base}work/?site=github-pages#image-to-record`,
   ]);
   assert.equal(featured[2].querySelector('h3').textContent, 'AI Image Capture and Salesforce Integration');
   assert.ok(home.querySelector('.hero-role').textContent.includes('AI Solution Builder'));
@@ -96,6 +96,21 @@ test('resume, portrait cards, project anchors and career facts are included', as
     assert.ok(doc.querySelector('button[aria-controls="main-navigation"][aria-expanded="false"]'));
   }
   assert.equal(((await readFile('dist/sitemap.xml', 'utf8')).match(/<url>/g) || []).length, 6);
+});
+
+test('Work and Expertise navigation bypasses old domain redirects and keeps canonical URLs clean', () => {
+  for (const [page, doc] of documents) {
+    for (const target of ['work', 'expertise']) {
+      const links = [...doc.querySelectorAll('a[href]')].filter(link => new URL(link.getAttribute('href'), `${origin}${base}`).pathname === `${base}${target}/`);
+      assert.ok(links.length > 0, `${page}: ${target} navigation exists`);
+      for (const link of links) {
+        const url = new URL(link.getAttribute('href'), `${origin}${base}`);
+        assert.equal(url.origin, origin);
+        assert.equal(url.search, '?site=github-pages', `${page}: fresh ${target} request`);
+      }
+    }
+    assert.equal(new URL(doc.querySelector('link[rel="canonical"]').href).search, '');
+  }
 });
 
 test('Skills includes the full resume toolkit, local logos, and navigation after About', async () => {
